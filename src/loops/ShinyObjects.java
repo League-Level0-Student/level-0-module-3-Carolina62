@@ -8,6 +8,7 @@ import java.applet.AudioClip;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.swing.JApplet;
+import javax.swing.JOptionPane;
 
 
 public class ShinyObjects {
@@ -17,7 +18,7 @@ public class ShinyObjects {
 		// 3. Play the sound that many times
 
 		// 1. Call the method below
-
+		
 	}
 
 	public static void playMisterZee() {
