@@ -19,18 +19,7 @@ public class WalkOfFame {
 		for (int i=0; i<5; i++);{
 			rob.move(35);
 			rob.turn(144);}
-		for (int i=0; i<5; i++);{
-			rob.move(35);
-			rob.turn(144);}
-		for (int i=0; i<5; i++);{
-			rob.move(35);
-			rob.turn(144);}
-		for (int i=0; i<5; i++);{
-			rob.move(35);
-			rob.turn(144);}
-		for (int i=0; i<5; i++);{
-			rob.move(35);
-			rob.turn(144);}
+		
 		// 3. Set the size of the star to 30.
 		/** THE CHALLENGE: **/
 		/*

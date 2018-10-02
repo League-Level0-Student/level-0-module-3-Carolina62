@@ -17,7 +17,7 @@ public class BananaQuiz
 			//and end quiz
 		//3. if they say yes
 		if(answer.equals("yes")) {String hobby = JOptionPane.showInputDialog("What is your favorite hobby?");}
-		
+
 		
 		//	ask them what is their favorite hobby
 		//	show a pop up that says "<your hobby> is much better with bananas!"
