@@ -12,13 +12,15 @@ public class WalkOfFame {
 		// 1. Set the X position of the robot so that it starts on the left. 
 		// You also need to show the robot to see the result of this line.
 		rob.setX(10);
+		rob.setY(600);
 		rob.miniaturize();
 		rob.setSpeed(15);
 		// 2. Make the robot draw a star shape. Hint: 144.
 		rob.penDown();
-		for (int i=0; i<5; i++);{
-			rob.move(35);
-			rob.turn(144);}
+		for (int i = 0; i < 5; i++) {
+			rob.move(30);
+			rob.turn(144);
+			}
 		
 		// 3. Set the size of the star to 30.
 		/** THE CHALLENGE: **/
@@ -28,7 +30,17 @@ public class WalkOfFame {
 		 * 
 		 * Hint: The distance between stars is 50.
 		 */
+		for (int i = 0; i < 5; i++) {
+			rob.setX(30);
+			rob.setY(550);
+			rob.move(30);
+			rob.turn(144);
+			}
+		}
+		}
+			
+		
 
-	}
 
-}
+
+
